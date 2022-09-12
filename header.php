@@ -13,28 +13,36 @@
 </head>
 
 <header>
-  <div class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a href="index.php" class="navbar-brand">
-       
-        <strong>Tienda online</strong>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">>
+<a href="inicio.php" class="navbar-brand">
+       <img clas="navnav" src="imagenes/icon/icon.png"  width="50" height="50">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-      <div class="collapse navbar-collapse" id="navbarHeader">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-         <a href="#" class="nav-link active">Cataloge</a>
-        </li>
-        <li class="nav-item">
-         <a href="#" class="nav-link">Contacto</a>
-        </li>
-      </ul>
-      <a href="carrito.php" class="btn btn-primary">Carrito</a>
-    </div>
-    </div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Contacto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Sucursales</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    <li>
+    <a href="carrito.php" class="btn btn-primary">Carrito</a>   
+    </li>
   </div>
-</header> 
+</nav>
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
 <body>
